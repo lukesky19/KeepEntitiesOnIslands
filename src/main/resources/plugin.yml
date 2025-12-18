@@ -1,0 +1,7 @@
+name: KeepEntitiesOnIslands
+version: '1.0.0.0'
+main: com.github.lukesky19.keepEntitiesOnIslands.KeepEntitiesOnIslands
+api-version: '1.21'
+load: STARTUP
+authors: [ lukeskywlker19 ]
+depend: [ BentoBox ]
