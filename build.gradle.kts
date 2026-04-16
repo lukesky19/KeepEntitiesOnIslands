@@ -1,9 +1,9 @@
 plugins {
-    java
+    `java-library`
 }
 
 group = "com.github.lukesky19"
-version = "1.0.0.0"
+version = "1.1.0.0"
 
 repositories {
     mavenLocal()
@@ -23,12 +23,12 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
     compileOnly("world.bentobox:bentobox:2.7.0-SNAPSHOT")
 }
 
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(25))
 }
 
 tasks {

@@ -12,6 +12,12 @@
 Q: What versions does this plugin support?
 
 A: This is a very simple plugin and will likely work on any version.
+Note: Java 25 is required even on versions older than 26.1.
+
+Q: I get the following error: "KeepEntitiesOnIslands has been compiled by a more recent version of the Java Runtime
+(class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0"
+
+A: KeepEntitiesOnIslands is compiled using Java 25 as part of it's support of 26.1 and beyond. KeepEntitiesOnIslands still works on older version as long as Java 25 is used.
 
 Q: Are there any plans to support any other versions?
 
